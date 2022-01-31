@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frve"
+    tools:context=".Vegetables">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/Apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="20dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Apple"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/Orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/apple"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="20dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Orange"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/Mango"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Orange"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Mango"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/Banana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Mango"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Banana"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/Pomegranate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Banana"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Pomegranate"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+
+
+        <Button
+            android:id="@+id/Papaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Pomegranate"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Papaya"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/Watermelon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Papaya"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Watermelon"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/Guava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Watermelon"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Guava"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/Grape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Guava"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ff"
+            android:drawablePadding="20dp"
+            android:hint="Grape"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
