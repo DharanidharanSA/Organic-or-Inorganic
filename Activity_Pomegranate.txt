@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frve"
+    tools:context=".Pomegranate">
+
+    <TextView
+        android:id="@+id/Organicpomegranate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="20dp"
+        android:background="#30ff"
+        android:drawablePadding="20dp"
+        android:hint="Organic Pomegranate"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="italic"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/img_10"
+        android:layout_below="@+id/Organicpomegranate"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/InorganicPomegranate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="70dp"
+        android:layout_below="@+id/Organicpomegranate"
+        android:layout_marginBottom="20dp"
+        android:background="#30ff"
+        android:drawablePadding="20dp"
+        android:hint="Inorganic Pomegranate"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="italic"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/img_11"
+        android:layout_below="@+id/InorganicPomegranate"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
