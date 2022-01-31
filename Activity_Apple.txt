@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frve"
+    tools:context=".Apple">
+
+<TextView
+    android:id="@+id/Organicapple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="70dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginEnd="70dp"
+    android:layout_marginBottom="20dp"
+    android:background="#30ff"
+    android:drawablePadding="20dp"
+    android:hint="Organic Apple"
+    android:padding="15dp"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textColorHint="@color/black"
+    android:textStyle="italic"
+    android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_20"
+        android:layout_below="@+id/Organicapple"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        />
